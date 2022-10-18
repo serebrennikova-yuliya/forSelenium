@@ -19,7 +19,7 @@ public class LoginPage {
     /**
      * определение локатора кнопки входа в аккаунт
      */
-    @FindBy(xpath="//span[contains(.,'Войти')]")
+    @FindBy(xpath = "//*[contains(text(), 'Login')]")
     private WebElement loginBtn;
     /**
      * определение локатора поля ввода пароля

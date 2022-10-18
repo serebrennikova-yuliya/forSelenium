@@ -37,22 +37,26 @@ public class LoginTest {
         //значение login/password берутся из файла настроек по аналогии с chromedriver
         //и loginpage
         //вводим логин
-        loginPage.inputLogin(ConfProperties.getProperty("login"));}
+        loginPage.inputLogin(ConfProperties.getProperty("login"));
         //нажимаем кнопку входа
-//        loginPage.clickLoginBtn();
-//        //вводим пароль
-//        loginPage.inputPasswd(ConfProperties.getProperty("password"));
-//        //нажимаем кнопку входа
-//        loginPage.clickLoginBtn();
-//        //получаем отображаемый логин
+        //loginPage.clickLoginBtn();
+        //вводим пароль
+        loginPage.inputPasswd(ConfProperties.getProperty("password"));
+        //нажимаем кнопку входа
+        loginPage.clickLoginBtn();
+        //получаем отображаемый логин
 //        String user = profilePage.getUserName();
-//        //и сравниваем его с логином из файла настроек
-//        Assert.assertEquals(ConfProperties.getProperty("login"), user); }
+        //и сравниваем его с логином из файла настроек
+ //       Assert.assertEquals(ConfProperties.getProperty("login"), user);
+        }
+    /**
+     * осуществление выхода из аккаунта с последующим закрытием окна браузера
+     */
     /**
      * осуществление выхода из аккаунта с последующим закрытием окна браузера
      */
     @AfterClass
     public static void tearDown() {
-    //    profilePage.entryMenu();
-    //    profilePage.userLogout();
+//        profilePage.entryMenu();
+        profilePage.userLogout();
         driver.quit(); } }
