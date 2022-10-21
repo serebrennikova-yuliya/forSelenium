@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.example.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 76.591 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 81.93 sec

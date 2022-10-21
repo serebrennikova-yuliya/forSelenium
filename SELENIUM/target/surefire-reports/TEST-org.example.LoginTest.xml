@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="org.example.LoginTest" time="72.696" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="org.example.LoginTest" time="75.615" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -62,5 +62,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.example.LoginTest" name="loginTest" time="72.696"/>
+  <testcase classname="org.example.LoginTest" name="loginTest" time="75.615"/>
 </testsuite>

@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="673adc53-2b2d-4936-888c-f65a91da1ab1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SELENIUM/src/test/java/org/example/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SELENIUM/src/test/java/org/example/Task8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SELENIUM/SELENIUM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SELENIUM/SELENIUM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SELENIUM/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SELENIUM/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SELENIUM/src/test/resources/conf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SELENIUM/src/test/resources/conf.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SELENIUM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SELENIUM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SELENIUM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SELENIUM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SELENIUM/target/surefire-reports/TEST-org.example.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SELENIUM/target/surefire-reports/TEST-org.example.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SELENIUM/target/surefire-reports/org.example.LoginTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SELENIUM/target/surefire-reports/org.example.LoginTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SELENIUM/target/test-classes/conf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SELENIUM/target/test-classes/conf.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +50,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.Task7">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Task8">
     <configuration name="Chrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Chrome" />
       <module name="SELENIUM" />
@@ -87,6 +99,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Task8" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SELENIUM" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -115,9 +142,11 @@
       <item itemvalue="JUnit.LoginTest" />
       <item itemvalue="Maven.SELENIUM" />
       <item itemvalue="JUnit.Task7" />
+      <item itemvalue="JUnit.Task8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task8" />
         <item itemvalue="JUnit.Task7" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="Application.Chrome" />
@@ -149,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666159221524</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Задание 7. Сделайте сценарий, проверяющий наличие стикеров у товаров">
+      <created>1666165904440</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666165904440</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +205,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="001" />
     <MESSAGE value="Задание 6. Сделайте сценарий, проходящий по всем разделам админки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 6. Сделайте сценарий, проходящий по всем разделам админки" />
+    <MESSAGE value="Задание 7. Сделайте сценарий, проверяющий наличие стикеров у товаров" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 7. Сделайте сценарий, проверяющий наличие стикеров у товаров" />
   </component>
 </project>
